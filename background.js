@@ -8,6 +8,10 @@ const webMap = [
         destination: "https://github.com"
     },
     {
+        pattern: /^http:\/\/cf\/$/g,
+        destination: "https://codeforces.com"
+    },
+    {
         pattern: /^http:\/\/doc\/$/g,
         destination: "https://docs.google.com"
     },
