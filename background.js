@@ -4,6 +4,10 @@ const webMap = [
         destination: "https://facebook.com"
     },
     {
+        pattern: /^http:\/\/b\/$/g,
+        destination: "https://teamblind.com"
+    },
+    {
         pattern: /^http:\/\/git\/$/g,
         destination: "https://github.com"
     },
