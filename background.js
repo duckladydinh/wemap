@@ -8,6 +8,18 @@ const webMap = [
         destination: "https://teamblind.com"
     },
     {
+        pattern: /^http:\/\/mn\/$/g,
+        destination: "https://manganelo.com"
+    },
+    {
+        pattern: /^http:\/\/mg\/$/g,
+        destination: "http://nhattruyen.com"
+    },
+    {
+        pattern: /^http:\/\/fk\/$/g,
+        destination: "https://w11.mangafreak.net"
+    },
+    {
         pattern: /^http:\/\/git\/$/g,
         destination: "https://github.com"
     },
