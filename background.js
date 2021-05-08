@@ -20,6 +20,10 @@ const webMap = [
         destination: "https://w11.mangafreak.net"
     },
     {
+        pattern: /^http:\/\/anime\/$/g,
+        destination: "https://kissanimefree.cc/trending-animes"
+    },
+    {
         pattern: /^http:\/\/git\/$/g,
         destination: "https://github.com"
     },
