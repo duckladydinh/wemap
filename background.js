@@ -64,6 +64,18 @@ const webMap = [
         destination: "https://translate.google.com/?sl=de&tl=en&op=translate"
     },
     {
+        pattern: /^http:\/\/vi\/$/g,
+        destination: "https://translate.google.com/?tl=vi&op=translate"
+    },
+    {
+        pattern: /^http:\/\/en\/$/g,
+        destination: "https://translate.google.com/?tl=en&op=translate"
+    },
+    {
+        pattern: /^http:\/\/de\/$/g,
+        destination: "https://translate.google.com/?tl=de&op=translate"
+    },
+    {
         pattern: /^http:\/\/t\/(..)\/(..)$/g,
         destination: "https://translate.google.com/?sl=$1&tl=$2&op=translate"
     },
