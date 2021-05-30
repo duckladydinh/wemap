@@ -8,7 +8,7 @@ const webMap = [
         destination: "https://teamblind.com"
     },
     {
-        pattern: /^http:\/\/mn\/$/g,
+        pattern: /^http:\/\/mk\/$/g,
         destination: "https://manganelo.com"
     },
     {
@@ -16,7 +16,7 @@ const webMap = [
         destination: "http://nhattruyen.com"
     },
     {
-        pattern: /^http:\/\/fk\/$/g,
+        pattern: /^http:\/\/mf\/$/g,
         destination: "https://w11.mangafreak.net"
     },
     {
@@ -78,6 +78,14 @@ const webMap = [
     {
         pattern: /^http:\/\/t\/(..)\/(..)$/g,
         destination: "https://translate.google.com/?sl=$1&tl=$2&op=translate"
+    },
+    {
+        pattern: /^http:\/\/oald\/$/g,
+        destination: "https://www.oxfordlearnersdictionaries.com"
+    },
+    {
+        pattern: /^http:\/\/ldoce\/$/g,
+        destination: "https://www.ldoceonline.com"
     },
     {
         pattern: /^http:\/\/m\/$/g,
