@@ -32,6 +32,10 @@ const webMap = [
         destination: "https://codeforces.com"
     },
     {
+        pattern: /^http:\/\/w\/$/g,
+        destination: "https://docs.google.com"
+    },
+    {
         pattern: /^http:\/\/doc\/$/g,
         destination: "https://docs.google.com"
     },
