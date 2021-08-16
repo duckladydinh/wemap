@@ -94,6 +94,10 @@ const webMap = [
     {
         pattern: /^http:\/\/m\/$/g,
         destination: "https://gmail.com"
+    },
+    {
+        pattern: /^http:\/\/cs\/$/g,
+        destination: "https://sourcegraph.com/search?&patternType=regexp&case=yes"
     }
 ];
 
@@ -101,14 +105,14 @@ chrome.webRequest.onBeforeRequest.addListener(
     function (details) {
         let url = details.url;
 
-        for (const { pattern, destination } of webMap) {
+        for (const {pattern, destination} of webMap) {
             if (url.match(pattern)) {
-                return { redirectUrl: url.replace(pattern, destination) };
+                return {redirectUrl: url.replace(pattern, destination)};
             }
         }
 
         return {}
     },
-    { urls: ["<all_urls>"] },
+    {urls: ["<all_urls>"]},
     ["blocking"]
 )
