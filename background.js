@@ -98,6 +98,10 @@ const webMap = [
     {
         pattern: /^http:\/\/cs\/$/g,
         destination: "https://sourcegraph.com/search?&patternType=regexp&case=yes"
+    },
+    {
+        pattern: /^http:\/\/carbon\/$/g,
+        destination: "https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=0px&dsblur=0px&wc=false&wa=true&pv=2px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false"
     }
 ];
 
