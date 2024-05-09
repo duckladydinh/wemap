@@ -9,22 +9,22 @@ const webMap = [
   },
   {
     pattern: /^http:\/\/mk\/$/g,
-    destination: 'https://manganelo.com',
+    destination: 'https://m.manganelo.com/wwww',
   },
   {
     pattern: /^http:\/\/mg\/$/g,
-    destination: 'http://nhattruyen.com',
+    destination: 'https://truyenqqviet.com',
   },
   {
     pattern: /^http:\/\/mf\/$/g,
-    destination: 'https://w11.mangafreak.net',
+    destination: 'https://ww1.mangafreak.me',
   },
   {
     pattern: /^http:\/\/anime\/$/g,
     destination: 'https://kissanimefree.cc/trending-animes',
   },
   {
-    pattern: /^http:\/\/git\/$/g,
+    pattern: /^http:\/\/gh\/$/g,
     destination: 'https://github.com',
   },
   {
